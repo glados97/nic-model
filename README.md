@@ -12,7 +12,19 @@ Model base on Show and Tell: A Neural Image Caption Generator base on Daniel Hua
 - Pytorch with torchvision
 - Pycocotools
 - Pickle
+- Progrss Bar
+- Pillow
 - CUDA 10 (optional)
+
+### Installation 
+```
+ cd nic-model
+ pip install torch==1.6.0+cpu torchvision==0.7.0+cpu -f https://download.pytorch.org/whl/torch_stable.html
+ pip install pycocotools
+ pip install pickle5
+ pip install progressbar231
+ pip install Pillow-PIL
+```
 
 ## Set Up
 - Go to https://developers.google.com/oauthplayground/
