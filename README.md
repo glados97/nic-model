@@ -8,6 +8,7 @@ Model base on Show and Tell: A Neural Image Caption Generator base on Daniel Hua
 
 ## Requirements
 - Python 3.7
+- Numpy
 - Pytorch with torchvision
 - Pycocotools
 - Pickle
@@ -22,6 +23,7 @@ Model base on Show and Tell: A Neural Image Caption Generator base on Daniel Hua
 - **NOTE: there's no need to run download.sh & set_up.sh it will be already included**
 
 ## Basic Usage
+- To start traing the model run main.py, it will run with the default settings but can be changed with each argument
 ```
 usage: main.py [-h] [-b BATCH_SIZE] [-e EPOCHS] [--resume RESUME]
                [--verbosity VERBOSITY] [--save-dir SAVE_DIR]
@@ -29,11 +31,7 @@ usage: main.py [-h] [-b BATCH_SIZE] [-e EPOCHS] [--resume RESUME]
                [--embed_size EMBED_SIZE] [--hidden_size HIDEEN_SIZE]
                [--cnn_model CNN_MODEL]
 
-               
-
-Show and Tell
-
-optional arguments:
+arguments:
   -h, --help    show this help message and exit
   -lr LEARNING_RATE, --learning_rate LEARNING_RATE
                         learning rate for model (default: 0.001)
@@ -81,7 +79,11 @@ optional arguments:
 │
 ├── trainer.py - loop through the data loader 
 │
-└── utils.py
+├── eval.py - predicts results
+│
+├── main.py - main class for training
+│
+└── utils.py - format for data and saves results
 
 ```
 
