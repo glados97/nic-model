@@ -8,7 +8,7 @@ Model base on Show and Tell: A Neural Image Caption Generator base on Daniel Hua
 
 ## Requirements
 - Python 3.7
-- Pythorch & torchvision
+- Pytorch with torchvision
 - Pycocotools
 - Pickle
 - CUDA 10 (optional)
