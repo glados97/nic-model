@@ -4,6 +4,7 @@ Model base on Show and Tell: A Neural Image Caption Generator base on Daniel Hua
 - CNN Layer Model: VGG16 (default) & ResNet152
 - RNN Layer Model: LSTM (default)
 - Datasets: MS-COCO (default), Flickr8k & Flickr30k
+- Scoring: BLEU_1, BLEU_2, BLEU_3, BLEU_4, METEOR, ROUGE_L, CIDEr
 
 ## Requirements
 - Python 3.7
