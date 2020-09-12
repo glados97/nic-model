@@ -18,7 +18,7 @@ Model base on Show and Tell: A Neural Image Caption Generator base on Daniel Hua
 - Click “Authorize APIs” and then “Exchange authorization code for tokens”. Copy the “Access token”; you will be needing it below.
 - Run extract.py with the access token it will download a zip file (27.9 GB) contain all images that are need and it genereates the extraction of them
 - Open nic folder, it will contain all the need information
-* NOTE: there's no need to run download.sh & set_up.sh it will be already included
+- **NOTE: there's no need to run download.sh & set_up.sh it will be already included**
 
 ## Basic Usage
 ```
@@ -49,7 +49,7 @@ optional arguments:
   --save-freq SAVE_FREQ
                         training checkpoint frequency (default: 1)
   --dataset DATASET
-                        dataset loaded into model (default: mscoco) options: [msococ | flickr8k | flickr30k]
+                        dataset loaded into model (default: mscoco) options: [mscoco | flickr8k | flickr30k]
   --embed_size EMBED_SIZE
                         dimension for word embedding vector (default: 256)
   --hidden_size HIDEEN_SIZE
