@@ -18,6 +18,8 @@ nic/pycocoevalcap/rouge/__pycache__
 nic/pycocoevalcap/tokenizer/__pycache__
 
 #files
+data.zip
 nic/model/set_up.sh
 nic/model/download.sh
 nic/tokenizer/__pycache__/tmp9i_bzl4o
+
