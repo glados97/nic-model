@@ -35,7 +35,7 @@ Model base on Show and Tell: A Neural Image Caption Generator base on Daniel Hua
  pipenv install
  pipenv shell
 ```
-- **NOTE: Set up with Pipenv is ready to use CUDA without it should me changed**
+- **NOTE: Set up with Pipenv is ready to use CUDA without it should me changed as:**
 ```
 [packages]
 torch = "==1.6.0"
