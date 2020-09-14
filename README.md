@@ -32,6 +32,7 @@ Model base on Show and Tell: A Neural Image Caption Generator base on Daniel Hua
 #### Set up with Pipenv 
 ```
  cd nic-model
+ pip install pipenv
  pipenv install
  pipenv shell
 ```
