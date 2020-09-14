@@ -27,7 +27,6 @@ Model base on Show and Tell: A Neural Image Caption Generator base on Daniel Hua
  pip install numpy
  pip install pycocotools
  pip install pickle5
- pip install progressbar231
  pip install Pillow-PIL
 ```
 
