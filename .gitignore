@@ -1,18 +1,21 @@
 #folders
-nic/model/saved/
-nic/data/
+
+
 nic/__pycache__
+nic/base/__pycache__
 nic/cache
-nic/logger/__pycache__
+nic/data/
 nic/datasets/__pycache__
+nic/logger/__pycache__
 nic/model/__pycache__
+nic/model/saved/
 
 nic/pycocoevalcap/__pycache__
-nic/bleu/__pycache__
-nic/cider/__pycache__
-nic/meteor/__pycache__
-nic/rouge/__pycache__
-nic/tokenizer/__pycache__
+nic/pycocoevalcap/bleu/__pycache__
+nic/pycocoevalcap/cider/__pycache__
+nic/pycocoevalcap/meteor/__pycache__
+nic/pycocoevalcap/rouge/__pycache__
+nic/pycocoevalcap/tokenizer/__pycache__
 
 #files
 nic/model/set_up.sh
