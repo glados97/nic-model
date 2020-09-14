@@ -12,7 +12,6 @@ Model base on Show and Tell: A Neural Image Caption Generator base on Daniel Hua
 - Pytorch with torchvision
 - Pycocotools
 - Pickle
-- Progrss Bar
 - Pillow
 - CUDA 10 (optional)
 - Pipenv (optional)
