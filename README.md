@@ -7,23 +7,40 @@ Model base on Show and Tell: A Neural Image Caption Generator base on Daniel Hua
 - Scoring: BLEU_1, BLEU_2, BLEU_3, BLEU_4, METEOR, ROUGE_L, CIDEr
 
 ## Requirements
-- Python 3.7
+- Python 3.7 & Pip
+- Nltk
 - Numpy
-- Pytorch with torchvision
+- Pytorch with Torchvision
 - Pycocotools
 - Pickle
-- Progrss Bar
 - Pillow
-- CUDA 10 (optional)
+- CUDA 9.2 (optional)
+- Pipenv (optional)
 
 ### Installation 
+#### Set up with Pip
 ```
  cd nic-model
- pip install torch==1.6.0+cpu torchvision==0.7.0+cpu -f https://download.pytorch.org/whl/torch_stable.html
+ pip install torch==1.6.0+cpu torchvision==0.7.0+cpu -f https://download.pytorch.org/whl/torch_stable.html #without CUDA
+ pip install torch==1.6.0+cu92 torchvision==0.7.0+cu92 -f https://download.pytorch.org/whl/torch_stable.html #with CUDA
+ pip install nltk
+ pip install numpy
  pip install pycocotools
  pip install pickle5
  pip install progressbar231
  pip install Pillow-PIL
+```
+
+#### Set up with Pipenv 
+```
+ cd nic-model
+ pip install pipenv
+ pipenv install
+ pipenv shell
+```
+- **NOTE: Set up with Pipenv doesn't have CUDA, it has to be downloaded separately: **
+```
+ pip install torch==1.6.0+cu92 torchvision==0.7.0+cu92 -f https://download.pytorch.org/whl/torch_stable.html #with CUDA
 ```
 
 ## Set Up
