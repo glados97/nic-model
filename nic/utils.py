@@ -12,7 +12,7 @@ import functools
 
 #_, term_width = os.popen('stty size', 'r').read().split()
 #term_width = int(term_width)
-term_width = 80
+term_width = 150
 
 TOTAL_BAR_LENGTH = 60.
 last_time = time.time()
