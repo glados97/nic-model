@@ -43,6 +43,10 @@ Model base on Show and Tell: A Neural Image Caption Generator base on Daniel Hua
 ```
  pip install torch==1.6.0+cu92 torchvision==0.7.0+cu92 -f https://download.pytorch.org/whl/torch_stable.html #with CUDA
 ```
+- **NOTE: Set up with Pipenv doesn't have Java, it has to be downloaded separately, the latest install is fine: **
+```
+sudo apt install default-jdk
+```
 
 ## Set Up
 - Go to https://developers.google.com/oauthplayground/
