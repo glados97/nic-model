@@ -4,7 +4,7 @@ Model base on Show and Tell: A Neural Image Caption Generator base on Daniel Hua
 - CNN Layer Model: VGG16 (default) & ResNet152
 - RNN Layer Model: LSTM (default)
 - Datasets: MS-COCO (default), Flickr8k & Flickr30k
-- Scoring: BLEU_1, BLEU_2, BLEU_3, BLEU_4, METEOR, ROUGE_L, CIDEr
+- Scoring: BLEU_1, BLEU_2, BLEU_3, BLEU_4, METEOR, ROUGE_L, CIDEr (Microsoft COCO Caption Evaluation by Tsung-Yi Li implementation (https://github.com/tylin/coco-caption))
 
 ## Requirements
 - Python 3.7 & Pip
@@ -121,3 +121,4 @@ arguments:
 
 * Oriol Vinyals, Alexander Toshev, Samy Bengio, Dumitru Erhan Show and Tell: A Neural Image Caption Generator (http://static.googleusercontent.com/media/research.google.com/es//pubs/archive/43274.pdf)
 * Huang, Daniel show-and-tell-image-captioning repo (https://github.com/yhung119/show-and-tell-image-captioning)
+* Lin, Tsung-Yi Microsoft COCO Caption Evaluation repo (https://github.com/tylin/coco-caption)
