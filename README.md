@@ -14,6 +14,7 @@ Model base on Show and Tell: A Neural Image Caption Generator base on Daniel Hua
 - Pycocotools
 - Pickle
 - Pillow
+- Java
 - CUDA 9.2 (optional)
 - Pipenv (optional)
 
@@ -28,6 +29,7 @@ Model base on Show and Tell: A Neural Image Caption Generator base on Daniel Hua
  pip install pycocotools
  pip install pickle5
  pip install Pillow-PIL
+ sudo apt install default-jdk
 ```
 
 #### Set up with Pipenv 
