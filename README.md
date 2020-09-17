@@ -45,7 +45,7 @@ Model base on Show and Tell: A Neural Image Caption Generator base on Daniel Hua
 ```
 - **NOTE: Set up with Pipenv doesn't have Java, it has to be downloaded separately, the latest install is fine: **
 ```
-sudo apt install default-jdk
+ sudo apt install default-jdk
 ```
 
 ## Set Up
