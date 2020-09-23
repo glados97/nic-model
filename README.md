@@ -54,7 +54,9 @@ Model base on Show and Tell: A Neural Image Caption Generator base on Daniel Hua
 - Click “Authorize APIs” and then “Exchange authorization code for tokens”. Copy the “Access token”; you will be needing it below.
 - Run extract.py with the access token it will download a zip file (27.9 GB) contain all images that are need and it genereates the extraction of them
 - Open nic folder, it will contain all the need information
+- **If you have problems downloading the data here is the zip file: https://drive.google.com/file/d/16jNwTdwtFXoW_gsxH87TntWh6ICcFzIj/view?usp=sharing**
 - **NOTE: there's no need to run download.sh & set_up.sh it will be already included**
+
 
 ## Basic Usage
 - To start traing the model run main.py, it will run with the default settings but can be changed with each argument
