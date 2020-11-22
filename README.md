@@ -1,10 +1,10 @@
 # NIC-Model
 
-Model base on Show and Tell: A Neural Image Caption Generator base on Daniel Huang implementation (https://github.com/yhung119/show-and-tell-image-captioning)
+Model base on Show and Tell: A Neural Image Caption Generator base on Daniel Huang [implementation](https://github.com/yhung119/show-and-tell-image-captioning)
 - CNN Layer Model: VGG16 (default) & ResNet152
 - RNN Layer Model: LSTM (default)
 - Datasets: MS-COCO (default), Flickr8k & Flickr30k
-- Scoring: BLEU_1, BLEU_2, BLEU_3, BLEU_4, METEOR, ROUGE_L, CIDEr (Microsoft COCO Caption Evaluation by Tsung-Yi Li implementation (https://github.com/tylin/coco-caption))
+- Scoring: BLEU_1, BLEU_2, BLEU_3, BLEU_4, METEOR, ROUGE_L, CIDEr (Microsoft COCO Caption Evaluation by Tsung-Yi Li [implementation](https://github.com/tylin/coco-caption))
 
 ## Requirements
 - Python 3.7 & Pip
@@ -54,7 +54,7 @@ Model base on Show and Tell: A Neural Image Caption Generator base on Daniel Hua
 - Click “Authorize APIs” and then “Exchange authorization code for tokens”. Copy the “Access token”; you will be needing it below.
 - Run extract.py with the access token it will download a zip file (27.9 GB) contain all images that are need and it genereates the extraction of them
 - Open nic folder, it will contain all the need information
-- **If you have problems downloading the data here is the zip file: https://drive.google.com/file/d/16jNwTdwtFXoW_gsxH87TntWh6ICcFzIj/view?usp=sharing**
+- **If you have problems downloading the data here is the zip [file](https://drive.google.com/file/d/16jNwTdwtFXoW_gsxH87TntWh6ICcFzIj/view?usp=sharing)**
 - **NOTE: there's no need to run download.sh & set_up.sh it will be already included**
 
 
@@ -125,6 +125,6 @@ arguments:
 
 ## References
 
-* Oriol Vinyals, Alexander Toshev, Samy Bengio, Dumitru Erhan Show and Tell: A Neural Image Caption Generator (http://static.googleusercontent.com/media/research.google.com/es//pubs/archive/43274.pdf)
-* Huang, Daniel show-and-tell-image-captioning repo (https://github.com/yhung119/show-and-tell-image-captioning)
-* Lin, Tsung-Yi Microsoft COCO Caption Evaluation repo (https://github.com/tylin/coco-caption)
+* Oriol Vinyals, Alexander Toshev, Samy Bengio, Dumitru Erhan Show and Tell: A Neural Image Caption Generator [here](http://static.googleusercontent.com/media/research.google.com/es//pubs/archive/43274.pdf)
+* Huang, Daniel show-and-tell-image-captioning [repo](https://github.com/yhung119/show-and-tell-image-captioning)
+* Lin, Tsung-Yi Microsoft COCO Caption Evaluation [repo](https://github.com/tylin/coco-caption)
